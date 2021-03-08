@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Raleway;
+    src: url(raleway.ttf);
+}
+
+body {
+    background: #ECDAD0;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.damn-minimalist span {
+    font-weight: 200;
+    font-size: 20vw;
+    color: white;
+}
+
+.damn-minimalist {
+    background: #46ae7c;
+    /* alternate color to use - #EA383F*/
+    width: 20vw;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+div.content {
+    padding: 60px 10vw;
+    font-size: 25px;
+    width: 80vw;
+    margin-left: 20vw;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    color: #46ae7c;
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 20px;
+    color: darkslategray;
+}
